@@ -2,8 +2,6 @@ library(ggplot2)
 library(caret)
 library(plyr)
 
-setwd("F:\\References\\Data Science\\R scripts\\PracticalMachineLearning")
-
 training <- read.csv("pml-training.csv", na.strings=c("NA",""))
 
 # View summary information on the training set
